@@ -49,6 +49,12 @@ int main(){
     std::cout << "2.5 is rounded to : " << std::round(2.5) << std::endl;
     std::cout << "2.4 is rounded to : " << std::round(2.4) << std::endl;
     
-   
+
+    //exercise
+
+    double hex_area = 3 * sqrt(3) * pow(6.7, 2) / 2;
+
+    std::cout << "Area of the hexagon is: " << hex_area << std::endl;
+
     return 0;
 }
